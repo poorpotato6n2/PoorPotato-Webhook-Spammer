@@ -1,0 +1,20 @@
+{
+  "threads": 3,
+  "connect_timeout": 20.0,
+  "read_timeout": 20.0,
+  "write_timeout": 20.0,
+  "pool_timeout": 20.0,
+  "sleep_interval": 0.0,
+  "retry_interval": 1.0,
+  "ping_everyone": true,
+  "use_proxies": true,
+  "http2_enabled": false,
+  "keep_alive": true,
+  "randomize_order": true,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "logging": {
+    "show_success": true,
+    "show_errors": true,
+    "show_ratelimits": true
+  }
+}

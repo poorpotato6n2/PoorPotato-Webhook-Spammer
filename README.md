@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 | Key | Description |
 | :--- | :--- |
-| `threads` | Number of concurrent spam threads (Recommended: 200-500). |
+| `threads` | Number of concurrent spam threads (Recommended: Depending on the amount of webhooks, if 5 webhooks do 5-10). |
 | `connect_timeout` | Max time (seconds) to wait for a proxy connection. |
 | `ping_everyone` | If `true`, adds `@everyone` to the start of every message. |
 | `use_proxies` | Set to `true` to enable `proxies.txt`. |
